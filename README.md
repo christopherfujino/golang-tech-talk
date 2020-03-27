@@ -86,7 +86,7 @@ type LinkedNode struct {
   Next *LinkedNode
 }
 
-func iterateList(node *LinkedNode) {
+func traverseList(node *LinkedNode) {
   for node.Next != nil {
     fmt.Println(node.Value)
     node = node.Next
